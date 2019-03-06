@@ -204,29 +204,27 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  
-         <distributionManagement>
-            <repository>
-                  <id>deployment</id>
-                  <name>International Releases</name>
-                     <url>http://localhost:8081/repository/Sampls_Rel/</url>
-                  </repository>
-                  <snapshotRepository>
-                  <id>deployment</id>
-                   <name>International Snapshot Releases</name>
-                     <url>http://localhost:8081/repository/Sample_Snap/</url>
-                  </snapshotRepository>
-         </distributionManagement>
 </dependencyManagement>
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>https://github.com/m1m2m3/Akshay</url>
   </scm>
-
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+<distributionManagement>
+    <repository>
+        <id>deployment</id>
+        <name>Internal Releases</name>
+        <url>http://localhost:8081/repository/Sampls_Rel/</url>
+    </repository>
+    <snapshotRepository>
+        <id>deployment</id>
+        <name>Internal snapshot Release</name>
+        <url>http://localhost:8081/repository/Sample_Snap/</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
