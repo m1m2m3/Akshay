@@ -204,7 +204,7 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  
          <distributionManagement>
             <repository>
                   <id>deployment</id>
@@ -217,7 +217,7 @@
                      <url>http://localhost:8081/repository/Sample_Snap/</url>
                   </snapshotRepository>
          </distributionManagement>
-
+</dependencyManagement>
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
